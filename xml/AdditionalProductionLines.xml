@@ -1,0 +1,19 @@
+<additionalProductionLines>
+    <additionalProductionLine filename="$pdlc/forestryPack/placeables/productionPoints/flooringFactory/flooringFactory.xml" isDlc="true" modName="">
+        <productionPoint>
+            <productions>
+                <production id="vegetableBox" name="$l10n_fillType_vegetableBox" cyclesPerHour="100" costsPerActiveHour="3">
+                    <inputs>
+					<input fillType="WOOD" amount="40" mix="1"/>
+					<input fillType="BOARDS" amount="28" mix="1"/>
+					<input fillType="EMPTYPALLET" amount="1" mix="boost" boostfactor="0.05"/>
+                </inputs>
+                <outputs>
+                    <output fillType="FURNITURE" amount="32" />
+                    <output fillType="WOODCHIPS" amount="1.4" />
+                </outputs>
+                </production>
+            </productions>
+        </productionPoint>
+    </additionalProductionLine>
+</additionalProductionLines>
