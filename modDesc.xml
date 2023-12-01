@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="79">
+    <author>tn4799</author>
+    <version>1.0.0.0</version>
+
+    <title>
+        <en>Production Line Inserter</en>
+		<de>Neue Produktionslinien hinzufügen</de>
+    </title>
+
+    <description>
+<en>
+<![CDATA[This mod allowy you to extend factories of the game with more. And all without editing the original production files.
+You can add the following Entries:
+ - New production lines
+ - New loading stations
+ - New unloading stations
+ - New fillTypes in the storage and also extend the capacity of existing storage entries
+ - New spawn places for pallets
+
+The syntax in the XML where the new Entries are loaded from is almost the same as the syntax of the normal production xml
+]]>
+</en>
+<de>
+<![CDATA[Dieser Mod gibt euch die Möglichkeit, bestehende Produktionen aus dem Spiel um mehr zu erweitern, ohne die Produktion selbst zu bearbeiten.
+Ihr könnt die folgenden Sachen hinzufügen:
+ - Neue Produktionslinie
+ - Neue Ladestation
+ - Neue Abladestation
+ - Neue FillTypes beim Lager, und auch mehr Kapazität für bereits bestehende Lagertypen
+ - Neue Spawnplätze für Paletten
+
+Die Syntax in der XML, aus der die neuen Werte geladen werden, ist fast 1:1 die gleiche wie bei normalen Produktionen]]>
+</de>
+    </description>
+
+    <multiplayer supported="true" />
+    <iconFilename>icon_Production.dds</iconFilename>
+
+    <extraSourceFiles>
+        <sourceFile filename="src/ProductionLineInserter.lua"/>
+    </extraSourceFiles>
+</modDesc>
