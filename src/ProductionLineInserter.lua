@@ -489,3 +489,5 @@ function ProductionLineInserter.loadAdditionalStorageEntries(storage, xmlFile, k
 
     self.storageDirtyFlag = self:getNextDirtyFlag()
 end
+
+FSBaseMission.loadMapFinished = Utils.appendedFunction(FSBaseMission.loadMapFinished, ProductionLineInserter.loadXMLFile)
